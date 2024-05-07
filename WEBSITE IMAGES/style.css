@@ -142,7 +142,7 @@ font-size: 40px;
 }
 
 .portfolio-section{
-background-image:url(backgroung.jpg);
+/*background-image:url(backgroung.jpg);*/
 /*display: flex;*/
 align-items: center;
 padding: 40px;
@@ -151,10 +151,10 @@ padding: 40px;
 
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(290px,1fr));
-    grid-gap:15%;
+    grid-template-columns: repeat(3, minmax(5%, 15%));
+    grid-gap: 3%;
     margin-top: 20px;
-    justify-content:space-between;
+    justify-content: space-around;
 }
 
 .work{
